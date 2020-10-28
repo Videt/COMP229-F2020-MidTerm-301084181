@@ -1,3 +1,5 @@
-# COMP229-F2020-MidTerm-301084181
+# COMP229-F2019-MidTerm Test
 
-Egor Shevchenko - 301084181
+## Welcome to the MidTerm Project - the Favourite Book List App
+
+please use **`npm install`** to install project dependencies
