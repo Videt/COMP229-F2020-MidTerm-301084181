@@ -1,1 +1,3 @@
 # COMP229-F2020-MidTerm-301084181
+
+Egor Shevchenko - 301084181
