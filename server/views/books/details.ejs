@@ -1,3 +1,6 @@
+<!-- Egor Shevchenko - 301084181, October 29, 2020 -->
+
+<!-- Changed all books to book -->
 <% include ../partials/header.ejs %>
 
     <!-- MAIN CONTENT -->
@@ -11,16 +14,21 @@
                 <input type="text" class="form-control" id="NameTextField"
                 placeholder="Book Name" name="title" value="<%= book.Title %>" required>
               </div>
+
+              <!-- added books descriptions -->
               <div class="form-group">
                 <label for="DescriptionTextField">Description</label>
                 <input type="text" class="form-control" id="DescriptionTextField"
                 placeholder="Book Description" name="description" value="<%= book.Description %>"  required>
               </div>
+
+              <!-- changed input type="text" to "number" with a step of 0.01 -->
               <div class="form-group">
-                <label for="PriceTextField">Price</label>
-                <input type="text" class="form-control" id="PriceTextField"
+                <label for="PriceNumberField">Price</label>
+                <input type="number" step="0.01" class="form-control" id="PriceNumberField"
                 placeholder="Book Price" name="price" value="<%= book.Price %>"  required>
               </div>
+
               <div class="form-group">
                 <label for="AuthorTextField">Author</label>
                 <input type="text" class="form-control" id="AuthorTextField"

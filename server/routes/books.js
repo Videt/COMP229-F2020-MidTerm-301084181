@@ -1,3 +1,5 @@
+// Egor Shevchenko - 301084181, October 29, 2020
+
 // modules required for routing
 let express = require('express');
 let router = express.Router();
