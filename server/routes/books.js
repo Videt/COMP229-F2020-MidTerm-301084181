@@ -1,4 +1,4 @@
-// Egor Shevchenko - 301084181, October 29, 2020
+// Egor Shevchenko - 301084181, Midterm Fall 2020, COMP 229, October 29, 2020
 
 // modules required for routing
 let express = require('express');
