@@ -1,5 +1,3 @@
-// Egor Shevchenko - 301084181, Midterm Fall 2020, COMP 229, October 29, 2020
-
 /* custom JS goes here */
 
 /* pagination code from http://www.bootply.com/lxa0FF9yhw */
@@ -110,7 +108,8 @@ $.fn.pageMe = function(opts){
   $(".btn-danger").click(function(event){
     if(!confirm("Are you sure?")) {
       event.preventDefault();
-      window.location.assign("/books"); // Changed from /games to /books
+      window.location.assign("/books");// Changed from /games to /books
+    }
   });
 
  /* pagination code */
