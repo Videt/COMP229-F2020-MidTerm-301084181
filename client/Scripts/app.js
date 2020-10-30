@@ -1,3 +1,5 @@
+// Egor Shevchenko - 301084181, Midterm Fall 2020, COMP 229, October 29, 2020
+
 /* custom JS goes here */
 
 /* pagination code from http://www.bootply.com/lxa0FF9yhw */
